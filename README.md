@@ -1,1 +1,2 @@
-# Smart Mobile IOS | Practica | Maarten Waanders
+# Smart Mobile IOS
+## Practica | Maarten Waanders
