@@ -1,0 +1,254 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F5E09B9A1C91EB1E00FF53CC /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E09B991C91EB1E00FF53CC /* main.swift */; };
+		F5E09BA11C91EC2300FF53CC /* GlowAct.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E09BA01C91EC2300FF53CC /* GlowAct.swift */; };
+		F5E09BA31C91EC2E00FF53CC /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = F5E09BA21C91EC2E00FF53CC /* City.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F5E09B941C91EB1E00FF53CC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F5E09B961C91EB1E00FF53CC /* HellGlow_world_v1 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = HellGlow_world_v1; sourceTree = BUILT_PRODUCTS_DIR; };
+		F5E09B991C91EB1E00FF53CC /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
+		F5E09BA01C91EC2300FF53CC /* GlowAct.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = GlowAct.swift; sourceTree = "<group>"; };
+		F5E09BA21C91EC2E00FF53CC /* City.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F5E09B931C91EB1E00FF53CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F5E09B8D1C91EB1E00FF53CC = {
+			isa = PBXGroup;
+			children = (
+				F5E09B981C91EB1E00FF53CC /* HellGlow_world_v1 */,
+				F5E09B971C91EB1E00FF53CC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F5E09B971C91EB1E00FF53CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F5E09B961C91EB1E00FF53CC /* HellGlow_world_v1 */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F5E09B981C91EB1E00FF53CC /* HellGlow_world_v1 */ = {
+			isa = PBXGroup;
+			children = (
+				F5E09B991C91EB1E00FF53CC /* main.swift */,
+				F5E09BA01C91EC2300FF53CC /* GlowAct.swift */,
+				F5E09BA21C91EC2E00FF53CC /* City.swift */,
+			);
+			path = HellGlow_world_v1;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F5E09B951C91EB1E00FF53CC /* HellGlow_world_v1 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F5E09B9D1C91EB1E00FF53CC /* Build configuration list for PBXNativeTarget "HellGlow_world_v1" */;
+			buildPhases = (
+				F5E09B921C91EB1E00FF53CC /* Sources */,
+				F5E09B931C91EB1E00FF53CC /* Frameworks */,
+				F5E09B941C91EB1E00FF53CC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HellGlow_world_v1;
+			productName = HellGlow_world_v1;
+			productReference = F5E09B961C91EB1E00FF53CC /* HellGlow_world_v1 */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F5E09B8E1C91EB1E00FF53CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Fhict;
+				TargetAttributes = {
+					F5E09B951C91EB1E00FF53CC = {
+						CreatedOnToolsVersion = 7.2.1;
+					};
+				};
+			};
+			buildConfigurationList = F5E09B911C91EB1E00FF53CC /* Build configuration list for PBXProject "HellGlow_world_v1" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F5E09B8D1C91EB1E00FF53CC;
+			productRefGroup = F5E09B971C91EB1E00FF53CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F5E09B951C91EB1E00FF53CC /* HellGlow_world_v1 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F5E09B921C91EB1E00FF53CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F5E09B9A1C91EB1E00FF53CC /* main.swift in Sources */,
+				F5E09BA11C91EC2300FF53CC /* GlowAct.swift in Sources */,
+				F5E09BA31C91EC2E00FF53CC /* City.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F5E09B9B1C91EB1E00FF53CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F5E09B9C1C91EB1E00FF53CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "-";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F5E09B9E1C91EB1E00FF53CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F5E09B9F1C91EB1E00FF53CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F5E09B911C91EB1E00FF53CC /* Build configuration list for PBXProject "HellGlow_world_v1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E09B9B1C91EB1E00FF53CC /* Debug */,
+				F5E09B9C1C91EB1E00FF53CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F5E09B9D1C91EB1E00FF53CC /* Build configuration list for PBXNativeTarget "HellGlow_world_v1" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F5E09B9E1C91EB1E00FF53CC /* Debug */,
+				F5E09B9F1C91EB1E00FF53CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F5E09B8E1C91EB1E00FF53CC /* Project object */;
+}

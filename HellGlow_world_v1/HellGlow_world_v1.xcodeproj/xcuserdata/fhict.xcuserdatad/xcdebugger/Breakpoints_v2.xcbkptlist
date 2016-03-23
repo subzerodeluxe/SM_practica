@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "HellGlow_world_v1/City.swift"
+            timestampString = "479392716.023806"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "21"
+            endingLineNumber = "21"
+            landmarkName = "City"
+            landmarkType = "3">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HellGlow_world_v1.City.init (HellGlow_world_v1.City.Type)(name : Swift.String, population : Swift.Int) -&gt; HellGlow_world_v1.City"
+                  moduleName = "HellGlow_world_v1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fhict/Desktop/SM%20Maarten%20Waanders/HellGlow_world_v1/HellGlow_world_v1/City.swift"
+                  timestampString = "479333805.659693"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "20"
+                  endingLineNumber = "20"
+                  offsetFromSymbolStart = "28">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HellGlow_world_v1.City._glowActs.getter : Swift.Array&lt;HellGlow_world_v1.GlowAct&gt;"
+                  moduleName = "HellGlow_world_v1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fhict/Desktop/SM%20Maarten%20Waanders/HellGlow_world_v1/HellGlow_world_v1/City.swift"
+                  timestampString = "479333805.664367"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HellGlow_world_v1.City._glowActs.setter : Swift.Array&lt;HellGlow_world_v1.GlowAct&gt;"
+                  moduleName = "HellGlow_world_v1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fhict/Desktop/SM%20Maarten%20Waanders/HellGlow_world_v1/HellGlow_world_v1/City.swift"
+                  timestampString = "479333805.664655"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "HellGlow_world_v1.City._glowActs.materializeForSet : Swift.Array&lt;HellGlow_world_v1.GlowAct&gt;"
+                  moduleName = "HellGlow_world_v1"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/fhict/Desktop/SM%20Maarten%20Waanders/HellGlow_world_v1/HellGlow_world_v1/City.swift"
+                  timestampString = "479333805.664848"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "12">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
