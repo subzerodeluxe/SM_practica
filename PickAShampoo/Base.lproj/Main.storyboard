@@ -1,0 +1,302 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10116" systemVersion="15D21" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="pfD-rE-f9f">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+    </dependencies>
+    <scenes>
+        <!--About-->
+        <scene sceneID="3gW-mQ-C6P">
+            <objects>
+                <viewController title="About" id="ean-jR-EFi" customClass="AboutViewController" customModule="PickAShampoo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="z3o-51-vwY"/>
+                        <viewControllerLayoutGuide type="bottom" id="D08-Jz-lyR"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="GMc-6M-0nf">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="What's this?" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="PKE-pl-7PQ">
+                                <rect key="frame" x="20" y="28" width="202" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cyan="0.87031584978103638" magenta="0.2536440855704698" yellow="0.0" black="0.0" alpha="1" colorSpace="custom" customColorSpace="genericCMYKColorSpace"/>
+                                <color key="highlightedColor" red="0.074509803921568626" green="0.47450980392156861" blue="1" alpha="1" colorSpace="calibratedRGB"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shampoo2" translatesAutoresizingMaskIntoConstraints="NO" id="pUP-JY-Eea">
+                                <rect key="frame" x="20" y="80" width="105" height="155"/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="dyb-Sz-bBz">
+                                <rect key="frame" x="20" y="275" width="142" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="23"/>
+                                <state key="normal" title="In for a surprise?"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="124" y="143" width="181" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonShowEasterEgg:" destination="ean-jR-EFi" eventType="touchUpInside" id="k3b-Gb-icz"/>
+                                    <segue destination="qWF-MD-RI5" kind="presentation" id="on6-su-v9V"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="UkL-jL-Vps">
+                                <rect key="frame" x="36" y="313" width="110" height="30"/>
+                                <state key="normal" title="Zeg eens iets leuks!"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="95" y="269" width="156" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonShowTextField:" destination="ean-jR-EFi" eventType="touchUpInside" id="37x-vY-fKC"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="mDi-zy-FUL">
+                                <rect key="frame" x="43" y="351" width="97" height="30"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="90" y="307" width="167" height="30"/>
+                                </variation>
+                            </textField>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="About" id="5gV-Ja-LAD"/>
+                    <connections>
+                        <outlet property="textFieldToBeShown" destination="mDi-zy-FUL" id="OmU-zv-65e"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="BJS-2Y-OxD" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="18" y="228"/>
+        </scene>
+        <!--Easter Egg View Controller-->
+        <scene sceneID="Auk-He-q2Q">
+            <objects>
+                <viewController id="qWF-MD-RI5" customClass="EasterEggViewController" customModule="PickAShampoo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="H7D-V3-sxk"/>
+                        <viewControllerLayoutGuide type="bottom" id="Rbi-7Y-UqJ"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="jnP-eq-AsR">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="fabulous" translatesAutoresizingMaskIntoConstraints="NO" id="6BE-Wk-VAH">
+                                <rect key="frame" x="50" y="93" width="367" height="279"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="84" width="272" height="264"/>
+                                </variation>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="vGD-3v-AfJ">
+                                <rect key="frame" x="37" y="44" width="158" height="30"/>
+                                <color key="backgroundColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                <state key="normal" title="&lt;- Get me outta here!">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" red="1" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
+                                </state>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="28" width="158" height="30"/>
+                                </variation>
+                                <connections>
+                                    <action selector="buttonGoBack:" destination="qWF-MD-RI5" eventType="touchUpInside" id="PQh-8d-bmt"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o3N-Ww-jDy" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="739.5" y="228"/>
+        </scene>
+        <!--General-->
+        <scene sceneID="ChE-uw-qd9">
+            <objects>
+                <viewController title="General" id="x3Y-1n-RQu" customClass="GeneralViewController" customModule="PickAShampoo" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="oPO-fB-iNL"/>
+                        <viewControllerLayoutGuide type="bottom" id="Qq8-OY-mtn"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="oIm-Dc-qhV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Pick Your Shampoo!" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5pD-q0-M0x">
+                                <rect key="frame" x="20" y="28" width="202" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Regular" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="v3J-ko-tVL">
+                                <rect key="frame" x="62" y="260" width="66" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Extra Vicious" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="D0j-ge-fE9">
+                                <rect key="frame" x="168" y="260" width="114" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shampoo1" translatesAutoresizingMaskIntoConstraints="NO" id="j5x-gv-sx2">
+                                <rect key="frame" x="20" y="87" width="151" height="155"/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shampoo2" translatesAutoresizingMaskIntoConstraints="NO" id="SRH-fs-Uf3">
+                                <rect key="frame" x="173" y="87" width="105" height="155"/>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="RwL-oM-oPF">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <string key="text">Shampoo is zo oud als de weg naar Rome. Het zit vol met gezonde cliches. Voor hem en haar. En voor haar. Want daar gaat het om. </string>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="38" y="325" width="240" height="128"/>
+                                </variation>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="RwL-oM-oPF"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="RwL-oM-oPF"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <tabBarItem key="tabBarItem" title="General" id="mNK-I3-h8h"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="luK-qk-N00" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="19" y="-507"/>
+        </scene>
+        <!--Tab Bar Controller-->
+        <scene sceneID="iTm-sa-TZr">
+            <objects>
+                <tabBarController id="pfD-rE-f9f" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" id="Cbr-pa-Lea">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="x3Y-1n-RQu" kind="relationship" relationship="viewControllers" id="qmM-8x-hSh"/>
+                        <segue destination="ean-jR-EFi" kind="relationship" relationship="viewControllers" id="O7n-rY-bsh"/>
+                        <segue destination="fTc-dN-HR6" kind="relationship" relationship="viewControllers" id="Cds-Hw-AFq"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dwf-ft-osl" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-703" y="38"/>
+        </scene>
+        <!--Details-->
+        <scene sceneID="NcN-ST-blY">
+            <objects>
+                <viewController title="Details" id="1cU-ir-5lL" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="LhY-Og-vyE"/>
+                        <viewControllerLayoutGuide type="bottom" id="MaG-X2-cWa"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="PXf-91-JZp">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="OH OH ...." textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="1OE-Ct-G4X">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="26"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="88" width="240" height="51"/>
+                                </variation>
+                            </textView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="shampooCat" translatesAutoresizingMaskIntoConstraints="NO" id="uj1-Qj-jLh">
+                                <rect key="frame" x="20" y="80" width="105" height="155"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="80" y="242" width="143" height="168"/>
+                                </variation>
+                            </imageView>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="Helaas was er niet meer voldoende budget beschikbaar om deze APP fatsoenlijk af te maken. Woorden schieten te kort. " textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="O0m-R4-Ppa">
+                                <rect key="frame" x="0.0" y="0.0" width="240" height="128"/>
+                                <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="147" width="240" height="87"/>
+                                </variation>
+                            </textView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <variation key="default">
+                            <mask key="subviews">
+                                <exclude reference="1OE-Ct-G4X"/>
+                                <exclude reference="uj1-Qj-jLh"/>
+                                <exclude reference="O0m-R4-Ppa"/>
+                            </mask>
+                        </variation>
+                        <variation key="widthClass=compact">
+                            <mask key="subviews">
+                                <include reference="1OE-Ct-G4X"/>
+                                <include reference="uj1-Qj-jLh"/>
+                                <include reference="O0m-R4-Ppa"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <navigationItem key="navigationItem" id="VVD-cB-duG"/>
+                    <connections>
+                        <segue destination="ewd-Dg-xrV" kind="show" id="gmh-rn-mDp"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="9TG-F8-GAA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="108" y="988"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="YoM-pY-prR">
+            <objects>
+                <viewController id="ewd-Dg-xrV" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="IEg-VD-Vc5"/>
+                        <viewControllerLayoutGuide type="bottom" id="pnH-Yt-5Tj"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="aLz-vr-voV">
+                        <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="9sY-Um-q9Z"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lQb-Xf-TDA" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="819" y="988"/>
+        </scene>
+        <!--Details-->
+        <scene sceneID="nSw-3T-hD6">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="fTc-dN-HR6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Details" id="JDh-QK-uRc"/>
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="IQR-11-lYp">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="1cU-ir-5lL" kind="relationship" relationship="rootViewController" id="1d1-Or-zFC"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="XH0-7t-tZe" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-703" y="988"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="fabulous" width="1280" height="853"/>
+        <image name="shampoo1" width="900" height="900"/>
+        <image name="shampoo2" width="283" height="476"/>
+        <image name="shampooCat" width="342" height="511"/>
+    </resources>
+</document>
